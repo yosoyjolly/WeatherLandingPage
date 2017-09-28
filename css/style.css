@@ -1,0 +1,82 @@
+h1{
+  font-size: 3rem;
+}
+
+.section{
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+
+.section-heading,
+.section-description{
+  margin-bottom:1.2rem;
+}
+
+.showcase{
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff
+}
+
+.showcase-span{
+  display: inline-block;
+  margin: 6rem 0;
+}
+
+.showcase-img{
+  position: relative;
+  max-width: 80%;
+  margin:3rem auto -12rem;
+}
+
+.section-a{
+  padding-bottom:5rem;
+}
+
+.section-a .fa{
+  font-size:40px;
+  margin-bottom:.5rem;
+  color:#beebff;
+}
+
+.section-a h5{
+  margin-bottom:.3rem;
+}
+
+.section-b{
+  background-color: #f5f6fa;
+}
+
+.section-c{
+ background-image: url('../images/weather.png');
+ color: #fff;
+}
+
+.section-c .section-description{
+  margin-bottom:4rem;
+}
+
+.weather-btn{
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.weather-btn:hover{
+  color: #338EEC;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.svg-logo{
+  opacity: 0.7;
+  position: relative;
+  max-width: 80%;
+}
+
+@media(min-width:750px){
+  .showcase-heading{
+    font-size: 7rem;
+    padding-top:11rem;
+  }
+}
